@@ -1,0 +1,139 @@
+<html>
+<head>
+
+    <title>Raid Masraf</title>
+    <link rel="icon" href="icons/roket.png " >
+    <link rel="stylesheet" href="Mains/Settingzx.css" />
+
+    <script>
+
+        function changeText01() {
+          document.getElementById("t1").innerHTML = "1";
+          document.getElementById("t2").innerHTML = "2";
+          document.getElementById("t3").innerHTML = "4";
+          document.getElementById("t4").innerHTML = "8";
+          document.getElementById("t5").innerHTML = "1";
+          document.getElementById("t6").innerHTML = "4";
+          document.getElementById("t7").innerHTML = "3";
+          document.getElementById("t8").innerHTML = "1";
+        };
+        function changeText02() {
+          document.getElementById("t1").innerHTML = "2";
+          document.getElementById("t2").innerHTML = "4";
+          document.getElementById("t3").innerHTML = "8";
+          document.getElementById("t4").innerHTML = "16";
+          document.getElementById("t5").innerHTML = "3";
+          document.getElementById("t6").innerHTML = "8";
+          document.getElementById("t7").innerHTML = "8";
+          document.getElementById("t8").innerHTML = "2";
+        };
+        function changeText03() {
+          document.getElementById("t1").innerHTML = "3";
+          document.getElementById("t2").innerHTML = "10";
+          document.getElementById("t3").innerHTML = "20";
+          document.getElementById("t4").innerHTML = "40";
+          document.getElementById("t5").innerHTML = "4";
+          document.getElementById("t6").innerHTML = "20";
+          document.getElementById("t7").innerHTML = "9";
+          document.getElementById("t8").innerHTML = "4";
+        };
+        function changeText04() {
+          document.getElementById("t1").innerHTML = "49";
+          document.getElementById("t2").innerHTML = "185";
+          document.getElementById("t3").innerHTML = "400";
+          document.getElementById("t4").innerHTML = "800";
+          document.getElementById("t5").innerHTML = "63";
+          document.getElementById("t6").innerHTML = "335";
+          document.getElementById("t7").innerHTML = "150";
+          document.getElementById("t8").innerHTML = "63";
+        };
+
+
+        function changeText5() {
+          document.getElementById("t1").innerHTML = "";
+          document.getElementById("t2").innerHTML = "";
+          document.getElementById("t3").innerHTML = "";
+          document.getElementById("t4").innerHTML = "";
+          document.getElementById("t5").innerHTML = "";
+          document.getElementById("t6").innerHTML = "";
+          document.getElementById("t7").innerHTML = "";
+          document.getElementById("t8").innerHTML = "";
+        };
+
+    </script>
+
+</head>
+<body bgcolor="424949" >
+    
+<div  class="D1" > 
+    
+     <b> <a href="St2.html" class="Txt1"  > <-- Ana Menü</a></b>  
+     <b> <a class="Txt2">Raid Masraf</a onclick="changeText5()" > </b>
+     <hr>
+
+</div>
+
+<div class="D2" >
+
+    <img  class="im1" src="icons/c4.png"                onclick="changeText01()"> 
+    <img  class="im2" src="icons/roket.png"             onclick="changeText02()"> 
+    <img  class="im3" src="icons/sathcel.png"           onclick="changeText03()"> 
+    <img  class="im4" src="icons/patlayıcımermi.png"    onclick="changeText04()">
+
+</div>
+
+<div class="D3" >
+
+
+    <hr>
+    <img class="ima1" src="imgs/rc/Wallswood.png" > 
+    <img class="ima2" src="imgs/rc/Wallsstone.png" > 
+    <img class="ima3" src="imgs/rc/Wallsmetal.png" > 
+    <img class="ima4" src="imgs/rc/Wallshq.png" > 
+    <img class="ima5" src="imgs/rc/doublemetaldoor.png" >
+    <img class="ima6" src="imgs/rc/doublehq.png" >
+    <img class="ima7" src="imgs/rc/Gr.png" >
+    <img class="ima8" src="imgs/rc/Mtdoor.png" >
+
+    <hr>
+    <b><a class="txtz1" id="t1"  ></a></b>
+    <b><a class="txtz2" id="t2"  ></a></b>
+    <b><a class="txtz3" id="t3"  ></a></b>
+    <b><a class="txtz4" id="t4"  ></a></b>
+    <b><a class="txtz5" id="t5"  ></a></b>
+    <b><a class="txtz6" id="t6"  ></a></b>
+    <b><a class="txtz7" id="t7"  ></a></b>
+    <b><a class="txtz8" id="t8"  ></a></b>
+    <hr>
+    
+    <div id="War"> 
+        <a class="Wart" > <b>Yazıların Kayması Sorunu Maalesef Çözülememiştir, Kusura Bakmayınız.  // Patlayıcı Mermi Ağır Kayıyor</b>  </a>
+</div>
+<div id="calculator">
+  <form>
+    <input type="text" id="result" disabled>
+    <br>
+    <input type="button" value="1" onclick="addToResult('1')">
+    <input type="button" value="2" onclick="addToResult('2')">
+    <input type="button" value="3" onclick="addToResult('3')">
+    <input type="button" value="+" onclick="addToResult('+')">
+    <br>
+    <input type="button" value="4" onclick="addToResult('4')">
+    <input type="button" value="5" onclick="addToResult('5')">
+    <input type="button" value="6" onclick="addToResult('6')">
+    <input type="button" value="-" onclick="addToResult('-')">
+    <br>
+    <input type="button" value="7" onclick="addToResult('7')">
+    <input type="button" value="8" onclick="addToResult('8')">
+    <input type="button" value="9" onclick="addToResult('9')">
+    <input type="button" value="*" onclick="addToResult('*')">
+    <br>
+    <input type="button" value="0" onclick="addToResult('0')">
+    <input type="button" value="/" onclick="addToResult('/')">
+    <input type="button" value="C" onclick="clearResult()">
+    <input type="button" value="=" onclick="calculateResult()">
+  </form>
+</div>
+</div> 
+</body>
+</html>
