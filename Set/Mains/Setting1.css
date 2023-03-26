@@ -1,0 +1,71 @@
+.Div1{
+    height: 75%;
+    width: 75%;
+    margin-left: 240px;
+}
+.Div2{
+    height: 230px;
+    width: 1415px;
+    margin-top: 180px;
+}
+
+.Text{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 380px;
+}
+/* En Baştaki Yazı */
+.Text2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    color: rgb(171, 16, 232);
+    text-decoration: none;
+    margin-left: 105px;
+    
+}
+.Text3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(171, 16, 232);
+    text-decoration: none;
+    margin-left: 450px; 
+}
+/*Seçenekler Yazı Ayarları*/
+.Text4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 160, 6);
+    text-decoration: none;
+    margin-left: 450px; 
+}
+.Text5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 160, 6);
+    text-decoration: none;
+    margin-left: 250px; 
+}
+.Text6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(125, 48, 13);
+    text-decoration: none;
+    margin-left: 450px; 
+}
+
+.img1{
+    margin-left: 238px;
+}
+#Beta{
+    color: rgb(2, 55, 101);
+    font-size: 30px;
+}
+/*Ek Şey Önemsiz İlk Satırlarda*/
+.Update{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(232, 95, 16);
+    margin-left: 170px;
+    
+}

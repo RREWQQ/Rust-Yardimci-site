@@ -1,0 +1,174 @@
+.D1{
+    height: 6%;
+    width: 100%;
+}
+.D2{
+    height: 16%;
+    width: 100%;
+}
+#calculator {
+    width: 150px;
+    height: 130px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #result {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+/*----------------------------------------------*/
+.Txt1{
+    font-size: 30px;
+    color: #09b17e;
+    text-decoration: none;
+}
+.Txt2{
+    font-size: 50px;
+    color: rgb(212, 110, 9);
+    margin-left: 530px;
+}
+/*----------------------------------------------*/
+.ima1{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+.ima2{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.ima3{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.ima4{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.ima5{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.ima6{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.ima7{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.ima8{
+    height: 84px;
+    width: 84px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+/*----------------------------------------------*/
+.txtz1{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 140px;
+}
+.txtz2{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 215px; 
+}
+.txtz3{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 225px; 
+}
+.txtz4{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 215px; 
+}
+.txtz5{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 215px; 
+}
+.txtz6{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 215px; 
+}
+.txtz7{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 225px; 
+}
+.txtz8{
+    font-size: 20px;
+    color: rgb(212, 110, 9);
+    margin-left: 215px;   
+}
+/*----------------------------------------------*/
+.im1{
+    height: 114px;
+    width: 114px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.im2{
+    height: 114px;
+    width: 114px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.im3{
+    height: 114px;
+    width: 114px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.im4{
+    height: 114px;
+    width: 114px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+/*----------------------------------------------*/
+#War {
+    margin-top: 25px;
+    height: 30px;
+    width: 100%;
+    color: red; /* Yazı rengi kırmızı olacak */
+    animation: blink 2s ease-in-out infinite; /* blink adlı animasyonu uygula */
+   }
+             
+        @keyframes blink {
+         0% {
+           opacity: 1; /* Başlangıçta yazı tamamen görünür olacak */
+        }
+        50% {
+          opacity: 0; /* Orta noktada yazı tamamen kaybolacak */
+        }
+        100% {
+          opacity: 1; /* Sonunda yazı tekrar görünür olacak */
+       }
+       }
+   
+   .Wart{
+       font-size: 30px;
+       margin-left: 350px;
+   }
+   /*----------------------------------------------*/
