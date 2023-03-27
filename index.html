@@ -21,15 +21,17 @@
 
     </style>
     <script>
-        document.getElementById("loading").style.display = "block"; // Yükleme ekranını görünür yap
-setTimeout(function() {
-  if (screen.width <= 768) {
-     window.location = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/Tel";
+        
+window.addEventListener('load', function() {
+  document.getElementById("loading").style.display = "block"; // Yükleme ekranını görünür yap
+  setTimeout(function() {
+    if (screen.width <= 768) {
+       window.location.href = "https://bilgi.com/telefon";
     } else {
-     window.location = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/St2.html";
-  }
-}, 0); // 0.5 saniye bekle
-
+       window.location.href = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/St2.html";
+    }
+  }, 500); // 0.5 saniye bekle
+});
     </script>
 </head>
 <body>
