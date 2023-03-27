@@ -1,0 +1,77 @@
+<html>
+<head>
+    <!-- ------------------------------------------------------ -->
+    <link rel="icon" href="icons/ak.png" >
+    <title>Ana Menü</title>
+    <link rel="stylesheet" href="Mains/SettingWithSt.css" />
+    <!-- ------------------------------------------------------ -->
+        <script>
+            function addToResult(value) {
+    document.getElementById('result').value += value;
+  }
+  
+  function clearResult() {
+    document.getElementById('result').value = '';
+  }
+  
+  function calculateResult() {
+    try {
+      var result = eval(document.getElementById('result').value);
+      document.getElementById('result').value = result;
+    } catch (error) {
+      document.getElementById('result').value = 'Hata';
+    }
+  }
+  
+        </script>
+</head> 
+<body  bgcolor="424949"  >
+<div class="Div0" >
+<div class="Div"   >
+ <b><a class="Text4" href="Main.html" > Üretim</a></b>
+ <b><a class="Text3" href="Rcr.html" > Raid Masraf</a></b>
+ <b><a class="Text3" href="Bpr.html" > Yapı Yükseltme Masraf </a></b>
+ <hr>
+</div>
+<div class="Div1" >
+ <div class="Div4" >
+ <BR>
+ <BR>
+ <BR>
+ <b><a class="UPD"            >Güncellemeler</a></b>  
+ <b><a class="UPDT"     >1:  Ana Menü Tasarımı Değişti</a></b>
+ <b><a class="UPDTT"    >2: Önemsiz Değişiklikler</a></b>
+ <b><a class="UPDTTT"   >3: Tablo Sistemİ Güncellendi</a></b>
+ <b><a class="UPDTTTT"  >4: Hesap Makinesi Eklendi</a></b>   
+</div>
+<hr class="H" >
+
+<div id="calculator">
+    <form>
+      <input type="text" id="result" disabled>
+      <br>
+      <input type="button" value="1" onclick="addToResult('1')">
+      <input type="button" value="2" onclick="addToResult('2')">
+      <input type="button" value="3" onclick="addToResult('3')">
+      <input type="button" value="+" onclick="addToResult('+')">
+      <br>
+      <input type="button" value="4" onclick="addToResult('4')">
+      <input type="button" value="5" onclick="addToResult('5')">
+      <input type="button" value="6" onclick="addToResult('6')">
+      <input type="button" value="-" onclick="addToResult('-')">
+      <br>
+      <input type="button" value="7" onclick="addToResult('7')">
+      <input type="button" value="8" onclick="addToResult('8')">
+      <input type="button" value="9" onclick="addToResult('9')">
+      <input type="button" value="*" onclick="addToResult('*')">
+      <br>
+      <input type="button" value="0" onclick="addToResult('0')">
+      <input type="button" value="/" onclick="addToResult('/')">
+      <input type="button" value="C" onclick="clearResult()">
+      <input type="button" value="=" onclick="calculateResult()">
+    </form>
+  </div>
+</div>
+</div>
+</body>
+</html>
