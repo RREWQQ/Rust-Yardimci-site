@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yükleniyor...</title>
+    <link rel="icon" href="https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/imgs/Madde.png">
+    <style>
+        #loading {
+  position: fixed;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+#loading-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+}
+
+    </style>
+    <script>
+        document.getElementById("loading").style.display = "block"; // Yükleme ekranını görünür yap
+setTimeout(function() {
+  if (screen.width <= 768) {
+     window.location = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/Tel";
+    } else {
+     window.location = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/St2.html";
+  }
+}, 0); // 0.5 saniye bekle
+
+    </script>
+</head>
+<body>
+    
+    <div id="loading">
+        <div id="loading-text">
+         <b> Yükleniyor...</b>
+        </div>
+      </div>
+      
+
+</body>
+</html>
