@@ -43,6 +43,7 @@
     padding: 10px;
     font-size: 20px;
     text-align: center;
+    margin-top: 10px;
   }
   
   #result {
@@ -95,14 +96,14 @@
 }
 .Text3{
     font-size: 40px;
-    margin-left: 150px;
+    margin-left: 110px;
     color: #09b17e;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 .Text4{
     font-size: 40px;
-    margin-left: 150px;
+    margin-left: 50px;
     color: #09b17e;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -124,6 +125,7 @@
     margin-left: 310px;
     font-size: 30px;
     text-decoration: none;
+    margin-top: 20px;
 }
 .UPDT{
     color: #c49000;
@@ -173,7 +175,7 @@
 }
 /* ---------------------------------------------- */
 .H{
-    margin-top: 50px;
+    margin-top: 190px;
 }
 /* ---------------------------------------------- */
 .PG{
