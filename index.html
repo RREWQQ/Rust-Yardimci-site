@@ -1,47 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Yükleniyor...</title>
+	<title>Yönlendirme</title>
     <link rel="icon" href="https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/imgs/Madde.png">
-    <style>
-        #loading {
-  position: fixed;
-  z-index: 9999;
-  height: 100%;
-  width: 100%;
-  background-color: #fff;
-}
-
-#loading-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 64px;
-}
-
-    </style>
-    <script>
-        
-window.addEventListener('load', function() {
-  document.getElementById("loading").style.display = "block"; // Yükleme ekranını görünür yap
-  setTimeout(function() {
-    if (screen.width <= 768) {
-       window.location.href = "https://bilgi.com/telefon";
-    } else {
-       window.location.href = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/St2.html";
-    }
-  }, 500); // 0.5 saniye bekle
-});
-    </script>
 </head>
 <body>
-    
-    <div id="loading">
-        <div id="loading-text">
-         <b> Yükleniyor...</b>
-        </div>
-      </div>
-      
-
+	<script>
+		var userAgent = navigator.userAgent.toLowerCase(); // Cihazın user agent bilgisini al
+		var isMobile = /iphone|ipod|ipad|android|blackberry|windows phone/.test(userAgent); // Cihazın mobil olup olmadığını kontrol et
+		if (isMobile) {
+			window.location.href = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/Tel/start.html"; // Cihaz mobil ise farklı bir siteye yönlendir
+		} else {
+			window.location.href = "https://rrewqq.github.io/K.N.G-Rust-Yardimci-Uygulama/Set/St2.html"; // Cihaz masaüstü ise farklı bir siteye yönlendir
+		}
+	</script>
 </body>
 </html>
