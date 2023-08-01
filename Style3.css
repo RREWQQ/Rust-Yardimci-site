@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital@1&display=swap');
+body{background-size:cover; background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_a63f203245f322f28cf489bf46beaeec780cccec.600x338.jpg?t=1678981332);   overflow:auto;}
+.Cs2{height: 100px;width: 600px;margin-left: 55%; padding-top: 100PX;}
+.Cs3{height: 25px;width: 82px;margin-left: 80px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.Cs4{margin-top: -25px;height: 25px;width: 76px;margin-left: 190px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.Cs5{margin-top: -25px;height: 25px;width: 96px;margin-left: 200px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.Cs6{margin-top: -25px;height: 25px;width: 128px;margin-left: 440px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.Cs1{height: 640px;width: 1903px; ;margin-top: -26px; border-bottom-style: solid; border: 5px; border-color: white; margin-left: -8px; background-color: rgba(236, 34, 34, 0.877)} 
+.Css1{height: 640px;width: 1911px; ;margin-top: -20px;  margin-left: -8px; background-color:rgba(0, 0, 0, 0.555)} 
+.Cs9{height: 960px;width: 1903px; margin-left: -8px; background-color: rgba(32, 32, 32, 0.877);border-color: white; margin-bottom: -10px; margin-top: 10px; }
+.Css9{height: 960px;width: 1911px; margin-left: -8px; background-color:rgba(0, 0, 0, 0.5);  border-bottom: solid; border:5px; border-color: white; margin-bottom: -10px; margin-top: -10px;}
+@font-face {font-family: Font2;src: url(font/font1\ .woff2);  }@font-face {font-family: Fontt;src: url(font/TFont\ 1.ttf);  }
+.D{height: 5px;width: 600px; background-color: white;border-color: white;border: 2px;border-radius: 60px;}
+.D2{height: 1px;width: 1905px; background-color: rgb(0, 0, 0);border-color: rgb(0, 0, 0);border: 5px;border-radius: 60px; margin-left: -10px;}
+#Hover:hover{color: rgba(0, 0, 0, 0.911);transition: 2s;background-color: rgba(255, 255, 255, 0.733);}  
+.İPS{margin-top: 200px;margin-left: 240px;height: 230px;width: 500px;border-color:white; font-family: Font4;}
+.SGW1{margin-left: 50px;font-size: 50px;color: rgb(255, 255, 255); font-family: 'Montserrat', sans-serif;}
+.SGW2{margin-left: 50px; margin-top: -10px; font-size: 80px;color: rgb(255, 255, 255);font-family: 'Montserrat', sans-serif; display: block;}
+.Cs7{margin-top: -250px;margin-left: 800px;height: 800px;width: 1050px;border-color: white;}
+.Cs8{height: 600px;width: 700px;border-color: white;margin-left: 70px;margin-top: -600px;}
+.MX{font-family: 'Roboto', sans-serif;font-size: 30px;color: rgb(0, 0, 0);padding-top: 10px;padding-left: 150px;display: block;}
+.chs{width: 380px;height: 130px;border-color:white;margin-left: 33.5%;display: none;}
+.Chst1{height: 25px;width: 62px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.Chst2{height: 25px;width: 100px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.Chst4{height: 25px;width: 78px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.Chst3{ height: 25px;width: 178px;display: block;font-size: 25px;color: White;font-family:Font2 ;}
+.icon{margin-top: -120px;margin-left: 150px;height: 60px;width: 280px;}
+.iconimg{height: 66px;width: 66px;}
+.icontext{text-decoration: none; margin-top: -60px;height: 55px;width: 226px;margin-left: 60px;display: block;font-size: 35px;color: rgba(0, 0, 0, 0.664);font-family:Font2 ; }
+.DD1{display: none;  color: rgb(255, 0, 0);background-color: rgba(255, 255, 255, 0);text-align-last: center;margin-left: 100px;height: 50px;width: 1711px;border-radius: 15%;}
+.DD2{height: 350px;width: 500px;margin-left: 700px;}
+.DD2T{font-size: 25px; margin-top: 25px;margin-left: 120px;color: white;font-family: Font2;}
+.DDD1{display: none;  color: rgb(255, 0, 0);background-color: rgba(255, 255, 255, 0);text-align-last: center;margin-left: 100px;height: 50px;width: 1711px;border-radius: 15%; padding-top: -200px;}
+.DDD2{height: 350px;width: 500px;margin-left: 700px;}
+.DDD2T{font-size: 25px; margin-top: 25px;margin-left: 120px;color: white;font-family: Font2;}
+.ALPHA1{ margin-left: -60px;position: absolute;top: 0;left: 0;width: 260px;height: 60px;transform: rotate(-45deg);background-color: rgb(0, 0, 0);color: rgb(255, 255, 255);font-size: 22px;line-height: 30px;text-align: center;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+.ALPHA{margin-left: -52px;font-size: 25px;margin-top: 15px;display: block; font-family: Font2}
+.SB1{
+
+  margin-left: 880px;
+  display: block;
+  font-size: 60px;
+  color: White;
+  font-family:Font2 ;
+}
+.SB2{
+
+  margin-left: 340px;
+  display: block;
+  font-size: 40px;
+  color: White;
+  font-family:Font2 ;
+}
+.SB3{
+  margin-left: 340px;
+  display: block;
+  font-size: 40px;
+  color: White;
+  font-family:Font2 ;
+}
+.SB{display: none;}
